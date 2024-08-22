@@ -8,14 +8,16 @@ import (
 /*
 Fix the function "fix_this_function()"
 
-Press RUN to execute the function and follow the result to correct it.
+Press RUN to execute the function and correct the code that have failing tests.
 
 Your test is successful if the test result is set to "PASS"
 
 	TEST Result:
 	PASS
 
-Once you succeed this test please send a copy paste by mail of your modified function "fix_this_function()"
+After passing the test, please copy your modified "fix_this_function()" and email it.
+
+Github: https://github.com/sas-check/test_interview_backend_apprenticeship
 
 Have fun :)
 */
