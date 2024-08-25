@@ -24,17 +24,18 @@ Have fun :)
 
 /************************************************* EDIT THIS FUNCTION ONLY *************************************************/
 func fix_this_function() (result []interface{}) {
-	for x := 1; x <= 17; x++ {
-		if x%4 == 0 {
-			result = append(result, "Fizz")
-		} else if x%6 == 0 {
-			result = append(result, "Bozz")
-		} else {
-			result = append(result, x)
-		}
-	}
-
-	return
+    for x := 1; x <= 20; x++ {
+        if x%3 == 0 && x%5 == 0 {
+            result = append(result, "FizzBuzz")
+        } else if x%3 == 0 {
+            result = append(result, "Fizz")
+        } else if x%5 == 0 {
+            result = append(result, "Buzz")
+        } else {
+            result = append(result, x)
+        }
+    }
+    return
 }
 
 /***************************************************************************************************************************/
